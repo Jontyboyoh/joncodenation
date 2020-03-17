@@ -1,0 +1,33 @@
+@import url("https://fonts.googleapis.com/css?family=Baloo+2|Source+Sans+Pro&display=swap");
+/* font-family: 'Baloo 2', cursive;
+font-family: 'Source Sans Pro', sans-serif;
+ */
+
+* {
+  box-sizing: border-box;
+  font-family: "Baloo 2", cursive;
+  margin: 10px 10px 10px 20px;
+  margin: 1%;
+}
+
+#allof {
+  background-color: rosybrown;
+}
+
+h1 {
+  color: magenta;
+  text-align: center;
+  font-size: 45px;
+}
+
+.firsthead {
+  background-color: orange;
+}
+
+.aboutme {
+  background-color: mediumturquoise;
+}
+
+.shitcol {
+  background-color: plum;
+}
