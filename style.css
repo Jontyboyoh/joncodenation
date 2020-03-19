@@ -1,8 +1,84 @@
 * {
-  box-sizing: content-box;
+  /* box-sizing: content-box; */
   padding: 3px;
+  margin: 1%;
+  /* background-color:  #F0F0F0; */
+  font-family: "adobe caslon";
+  color: #2f4f4f;
 }
 
+/* Navbar container */
+.navbar {
+  overflow: hidden;
+  color: #a1a1a1;
+  background-color:#D3D3D3 ;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+/* Links inside the navbar */
+.navbar a {
+  float: left;
+  font-size: 30px;
+  color: #2f4f4f ;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+}
+
+/* The dropdown container */
+.dropdown {
+  float: center;
+  overflow: hidden;
+}
+
+/* Dropdown button */
+.dropdown .dropbtn {
+  font-size: 30px; 
+  border: none;
+  outline: none;
+  color: #2f4f4f ;
+  padding: 14px 16px;
+  background-color: inherit;
+  font-family: inherit; /* Important for vertical align on mobile phones */
+  margin: 0; /* Important for vertical align on mobile phones */
+}
+
+
+.navbar a:hover, .dropdown:hover .dropbtn {
+  background-color: #a1a1a1 ;
+}
+
+/* Dropdown content (hidden by default) */
+.dropdown-content {
+  display: none;
+  position: absolute;
+  background-color: #f9f9f9;
+  min-width: 160px;
+  box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+  z-index: 1;
+}
+
+/* Links inside the dropdown */
+.dropdown-content a {
+  float: none;
+  color: #66ccff;
+  color: grey;
+  padding: 12px 16px;
+  text-decoration: none;
+  display: block;
+  text-align: left;
+}
+
+/* Add a grey background color to dropdown links on hover */
+.dropdown-content a:hover {
+  background-color: #66ccff ;
+}
+
+/* Show the dropdown menu on hover */
+.dropdown:hover .dropdown-content {
+  display: block;
+}
+/* 
 ul {
   list-style-type: none;
   margin: 0;
@@ -29,11 +105,12 @@ li a.active {
 li a:hover {
   background-color: #555;
   color: white;
-}
+} */
 
 h1 {
   text-align: center;
   color: #66ccff;
+  font-size: 30px;
 }
 
 h2 {
@@ -51,6 +128,8 @@ h4 {
 }
 
 p {
+  font-size: 20px;
+  font: helvetica;
   color: grey;
 }
 .answers {
@@ -61,10 +140,16 @@ p {
   color: #d0d0d0;
   font-size: 40px;
 }
-.mememe {
-  color: #66ccff;
-  font-size: 60px;
-}
+
 .boldword {
   color: #66ccff;
+}
+.mememe h1 {
+  color: #66ccff;
+  font-size: 80px;
+}
+
+.subs {
+  color: #2f4f4f;
+  font-size: 20px ;
 }
